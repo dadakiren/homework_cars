@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&family=Lexend+Deca&display=swap');
+
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+* {
+
+  margin: 0 auto;
+
+}
+
+.btn_one:hover{
+    background: #E28625;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.btn_two:hover{
+    background: #006971;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.btn_three:hover{
+    background: #004140;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.box{
+    height: 500px;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+.cards{
+    width: 920px;
+    height: 500px;
+    margin-top: 171px;
+    display: flex;
+}
+
+.card_one, .card_two, .card_three{
+    width: 307px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.card_one{
+    background: #E28625;
+    
+}
+.card_two{
+    background: #006971;
+
+}
+
+.card_three{
+    background: #004140;
+}
+
+.icon_one, .icon_two, .icon_three{
+    margin: 48px ;
+}
+
+.name_car{
+    width: 101px;
+    height: 48px;
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-left: 48px;
+}
+
+.info_car{
+    font-family: 'Lexend Deca';
+    width: 212px;
+    height: 125px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-top: 25px;
+}
+
+.btn_one, .btn_two, .btn_three{
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+    background: #F2F2F2;
+    border-radius: 25px;  
+    width: 146px;
+    height: 48px;
+    margin-top: 83px;
+    margin-left: 48px;
+    border: none;
+}
+.btn_one{
+    color: #E28625;
+}
+
+.btn_two{
+    color: #006971;
+}
+
+.btn_three{
+    color: #004140;
+}
+
+@media (max-width: 450px) {
+
+    .cards{
+    width: 327px;
+    height: 1326px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name_car{
+    width: 99px;
+    
+}
+
+.info_car{
+    width: 231px;
+}
+
+.btn_one, .btn_two, .btn_three{
+    margin-top: 25px;
+}
+}
